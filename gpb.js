@@ -1,3 +1,4 @@
+
 javascript: (function() {
     var iframe_url = "http://ctrlq.org/plusone/" + "?u=" + encodeURIComponent(document.location.href);
     var div = document.createElement("div");
@@ -10,8 +11,8 @@ javascript: (function() {
 position: fixed;
 top: 10px;
 left: 10px;
-width: 500px;
-height: 350px;
+width: 480px;
+height: 470px;
 z-index: 9999;
 background: white;
 padding: 10px;
@@ -33,7 +34,7 @@ display: block
 			Close
 		</a>
 	</small>
-	<iframe frameborder='0' scrolling='no' src='" + iframe_url + "' style='position: fixed; top:10px; left:10px; backgroundColor: white; width:500px; height:350px'>
+	<iframe frameborder='0' scrolling='no' src='" + iframe_url + "' style='position: fixed; top:20px; left:20px; backgroundColor: white; width:450px; height:480px'>
 	</iframe>
 </div>";
     div.innerHTML = str;
